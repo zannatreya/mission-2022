@@ -59,14 +59,14 @@ p{
     background-position: right;
 }
 
-.experience{
+.mission{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
 
 }
 
-.experience-item{
+.mission-item{
     width: 30%;
     margin-left: 5%;
     margin-right: 5%;
@@ -112,7 +112,6 @@ div.contact-container{
     width: 100%;
     margin: auto;
     background: cadetblue;
-    border-radius: 10px;
     padding: 5px;
     color: white;
     
@@ -146,7 +145,8 @@ input,textarea{
     padding: 3px;
     padding-left: 20px;
     border-radius: 5px;
-    transition: width .4s ease-in-out;
+    
+    
 }
 input:focus, textarea:focus{
     width: 90%;   
@@ -154,13 +154,6 @@ input:focus, textarea:focus{
 textarea{
     resize: none;
 }
-
-.input-icon{
-    color: black;
-    position: absolute;
-    left: 10px;
-    top: calc(50% - 0.5em); /* Keep icon in center of input, regardless of the input height */
-  }
  
 button.contact-button{
     width: 100px;
